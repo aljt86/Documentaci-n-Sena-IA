@@ -1,0 +1,13 @@
+{
+  "resultado": {
+    "nombre_completo": null,
+    "numero_documento": "688689",
+    "fecha_nacimiento": "22-FEB-1986",
+    "sexo": "Masculino",
+    "lugar_nacimiento": "(CAUCA)",
+    "fecha_expedicion": "",
+    "nacionalidad": null,
+    "rh": null,
+    "edad": 40
+  }
+}

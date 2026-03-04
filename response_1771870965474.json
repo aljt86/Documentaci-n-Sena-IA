@@ -1,0 +1,11 @@
+{
+  "resultado": {
+    "nombre_completo": null,
+    "numero_documento": null,
+    "fecha_nacimiento": "22-FEB-1986",
+    "sexo": null,
+    "lugar_nacimiento": null,
+    "fecha_expedicion": "22-FEB-1986 as POPAYAN",
+    "edad": 40
+  }
+}

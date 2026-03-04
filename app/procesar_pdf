@@ -1,0 +1,18 @@
+from app.parser import extraer_campos
+
+def procesar_pdf(pdf_path: str):
+    try:
+        paginas = convert_from_path(pdf_path)
+        resultados = []
+        for pagina in paginas:
+            img = cv2.cvtColor(np.array(pagina), cv2.COLOR_RGB2BGR)
+            if es_borroso(img):
+                return {"error": "Documento borroso, suba una copia legible"}
+            texto = pytesseract.image_to_string(img, lang="spa")
+            resultados.append(texto)
+
+        texto_final = "\n".join(resultados)
+        campos = extraer_campos(texto_final)
+        return campos
+    except Exception as e:
+        return {"error": f"Error al procesar el PDF: {e}"}

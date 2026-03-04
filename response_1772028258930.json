@@ -1,0 +1,13 @@
+{
+  "resultado": {
+    "nombre_completo": null,
+    "numero_documento": "12876200",
+    "fecha_nacimiento": null,
+    "sexo": null,
+    "lugar_nacimiento": null,
+    "fecha_expedicion": null,
+    "nacionalidad": null,
+    "rh": null,
+    "edad": null
+  }
+}

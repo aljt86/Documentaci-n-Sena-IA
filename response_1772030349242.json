@@ -1,0 +1,13 @@
+{
+  "resultado": {
+    "nombre_completo": null,
+    "numero_documento": "1100100",
+    "fecha_nacimiento": "23-MAY-2004",
+    "sexo": "Masculino",
+    "lugar_nacimiento": "(CAUCA)",
+    "fecha_expedicion": "09-JUN-2022 POPAYAN -",
+    "nacionalidad": null,
+    "rh": null,
+    "edad": 21
+  }
+}

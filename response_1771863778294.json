@@ -1,0 +1,11 @@
+{
+  "resultado": {
+    "nombre_completo": null,
+    "numero_documento": null,
+    "fecha_nacimiento": null,
+    "sexo": null,
+    "lugar_nacimiento": null,
+    "fecha_expedicion": null,
+    "edad": null
+  }
+}

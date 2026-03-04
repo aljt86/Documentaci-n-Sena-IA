@@ -1,0 +1,12 @@
+{
+  "resultado": {
+    "nombre_completo": null,
+    "numero_documento": null,
+    "fecha_nacimiento": "",
+    "sexo": "Femenino",
+    "lugar_nacimiento": "1.74 O+ M",
+    "fecha_expedicion": "10-MAY-2004 POPAYAN",
+    "nacionalidad": null,
+    "edad": null
+  }
+}
