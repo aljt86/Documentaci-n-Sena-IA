@@ -198,4 +198,3 @@ def procesar_documento(pdf_path):
 
 # Wrapper para compatibilidad
 def extraer_campos(texto: str):
-    return extraer_campos_por_lineas(texto)
