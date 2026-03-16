@@ -12,7 +12,7 @@ def home():
 @app.post("/ocr/upload/")
 async def ocr_upload(file: UploadFile = File(...)):
     # Guardar temporalmente el archivo subido
-    temp_path = f"temp_{file.filename}"
+    temp_path = f"/tmp/{file.filename}"
     with open(temp_path, "wb") as f:
         f.write(await file.read())
 
